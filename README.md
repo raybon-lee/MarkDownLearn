@@ -65,8 +65,9 @@
 ## 链接地址
 [我的新浪博客](http://blog.sina.com.cn/s/articlelist_3034537011_0_1.html)
 ## 引用的格式
-> 第一个文件
-> 第二个文件
+
+>- 第一个文件
+>- 第二个文件
 
 ## 水平线
 
@@ -75,10 +76,13 @@
 ## 代码
 
 `<hello world>`
+
+#### <i class="icon-pencil"></i> Rename a document
+
 #### 代码块高亮状态
-``` Welcome to China ! 
-    hello word! 
-```
+``` Welcome to China ! <br>
+    hello word!```
+
 
 ##  表格的使用格式如下
 table1 | table2
