@@ -131,10 +131,10 @@ Welcome to China ! <br>
 
 ### 定义
 >TEAM 1 
-: Definition A
-: Definition B
+    : Definition A
+    : Definition B
 
-    > part of definition B
+        > part of definition B
 
 ### Footnotes
 
