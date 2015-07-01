@@ -35,9 +35,9 @@
 
 > 有序列表
 
-> - 1. 我是1
-> - 2. 项目2
-> - 3. 项目3
+>  1. 我是1
+>  2. 项目2
+>  3. 项目3
    > - * 项目1
    > - * 项目2
 
@@ -45,7 +45,17 @@
 
 # 其他
 
+## 层级结构
 
+* 编程语言
+    * 脚本语言
+        * Python
+
+>数据结构
+>>树
+>>>二叉树
+>>>>平衡二叉树
+>>>>>满二叉树
 
 > **Note:** You can find more information:
 
@@ -90,6 +100,13 @@
 
 `<hello world>`
 
+```java
+public static void main(String[]args){} //Java
+
+```ios
+- (void)initWithFrame:(CGRect)rect{} //Objective-c
+
+
 #### <i class="icon-pencil"></i> Rename a document
 
 #### 代码块高亮状态
@@ -101,10 +118,10 @@ Welcome to China ! <br>
 
 ### 定义
 >TEAM 1 
->-: Definition A
->-: Definition B
+> - : Definition A
+> - : Definition B
 
-    > part of definition B
+    > - part of definition B
 
 ### Footnotes
 
@@ -120,7 +137,7 @@ cell2  | string2
 ***
 ### 多级表格使用
 | Item     | Value | Qty   |
-| :------- | ----: | :---: |
+| :-------- | -----: | :----: |
 | Computer | $1600 |  5    |
 | Phone    | $12   |  12   |
 | Pipe     | $1    |  234  |
