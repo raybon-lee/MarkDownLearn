@@ -35,11 +35,11 @@
 
 > 有序列表
 
->  1. 我是1
->  2. 项目2
->  3. 项目3
-   > - * 项目1
-   > - * 项目2
+1. 我是1
+2. 项目2
+3. 项目3
+  * 项目1
+  * 项目2
 
 ---
 
@@ -139,7 +139,8 @@ Welcome to China ! <br>
 ### Footnotes
 
 You can create footnotes like this[^footnote].
- [^footnote]: Here is the *text* of the **footnote**.
+
+[^footnote]:Here is the *text* of the **footnote**.
 
 
 ##  表格的使用格式如下
