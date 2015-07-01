@@ -50,15 +50,15 @@
 
 You can also render sequence diagrams like this:
 
-```sequence
+sequence
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
-```
+
 
 And flow charts like this:
 
-```flow
+flow
 st=>start: Start
 e=>end
 op=>operation: My Operation
@@ -67,7 +67,7 @@ cond=>condition: Yes or No?
 st->op->cond
 cond(yes)->e
 cond(no)->op
-```
+
 
 > **Note:** You can find more information:
 
@@ -77,7 +77,6 @@ cond(no)->op
 
 ### Support StackEdit
 
-[![](https://cdn.monetizejs.com/resources/button-32.png)](https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&summary=true)
 
 [^stackedit]: [StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
 [1]: http://math.stackexchange.com/
