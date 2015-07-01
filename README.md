@@ -81,10 +81,14 @@
 ## 添加图片
 
 格式：`![图片名字]（链接地址)`
+` https://github.com/ 你的用户名 / 你的项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片`
+
 ![image icon](default.png)
 
 ## 链接地址
 [我的新浪博客](http://blog.sina.com.cn/s/articlelist_3034537011_0_1.html)
+[![baidu]](http://baidu.com)
+[baidu]:http://www.baidu.com/img/bdlogo.gif "百度LOGO"
 ## 引用的格式
 
 >- 第一个文件
@@ -102,9 +106,18 @@
 
 ```java
 public static void main(String[]args){} //Java
+```
 
 ```ios
 - (void)initWithFrame:(CGRect)rect{} //Objective-c
+```
+
+```Bash
+echo "hello GitHUb"#Bash
+```
+```cpp
+string &operator+(const string& A,const string& B) //cpp
+```
 
 
 #### <i class="icon-pencil"></i> Rename a document
