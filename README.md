@@ -39,13 +39,48 @@
 2. 项目2
 3. 项目3
 
-    * 项目1
-    * 项目2
+   >-  * 项目1
+   >-  * 项目2
 
 ---
 
 # 其他
 
+### UML diagrams
+
+You can also render sequence diagrams like this:
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+
+And flow charts like this:
+
+```flow
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+> **Note:** You can find more information:
+
+> - about **Sequence diagrams** syntax [here][7],
+> - about **Flow charts** syntax [here][8].
+
+
+### Support StackEdit
+
+[![](https://cdn.monetizejs.com/resources/button-32.png)](https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&summary=true)
+
+[^stackedit]: [StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
+[1]: http://math.stackexchange.com/
 ---
 ## 多行文本，可以在首行增加两个Tab
 
@@ -69,6 +104,8 @@
 >- 第一个文件
 >- 第二个文件
 
+> - **特殊引用**
+
 ## 水平线
 
 ***
@@ -80,21 +117,46 @@
 #### <i class="icon-pencil"></i> Rename a document
 
 #### 代码块高亮状态
-``` Welcome to China ! <br>
-    hello word!```
+```
+//FOO
+Welcome to China ! <br>
+ hello word!
+
+```
+### 定义
+TEAM 1 
+: Definition A
+: Definition B
+
+    > part of definition B
+
+### Footnotes
+
+You can create footnotes like this[^footnote].
+ [^footnote]: Here is the *text* of the **footnote**.
 
 
 ##  表格的使用格式如下
-table1 | table2
+table_name | content
 -------|--------
-cell1  | string1
+cell1  | value1
 cell2  | string2
+***
+### 多级表格使用
+| Item     | Value | Qty   |
+| :------- | ----: | :---: |
+| Computer | $1600 |  5    |
+| Phone    | $12   |  12   |
+| Pipe     | $1    |  234  |
 
-## 目录用法
+***
+
+### 目录用法
 *[背景介绍](#背景介绍)
 *[项目介绍](#项目介绍)
 *[使用说明](#使用说明)
 *[其他](#其他)
+
 
 <a name="背景介绍"></a><br>
 
