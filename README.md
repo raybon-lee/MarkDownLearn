@@ -46,28 +46,6 @@
 
 # 其他
 
-### UML diagrams
-
-You can also render sequence diagrams like this:
-
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
-****
-
-And flow charts like this:
-
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
 
 
 > **Note:** You can find more information:
@@ -116,16 +94,16 @@ cond(no)->op
 #### <i class="icon-pencil"></i> Rename a document
 
 #### 代码块高亮状态
-```
-//FOO
+
+```//FOO
 Welcome to China ! <br>
  hello word!
-
 ```
+
 ### 定义
-TEAM 1 
-: Definition A
-: Definition B
+>TEAM 1 
+>-: Definition A
+>-: Definition B
 
     > part of definition B
 
@@ -162,6 +140,30 @@ cell2  | string2
 <a name="获取代码"></a>
 
 ***
+
+### UML diagrams
+
+>You can also render sequence diagrams like this:
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+
+
+>And flow charts like this:
+
+```flow
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
 
 
 
